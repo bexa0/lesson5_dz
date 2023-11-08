@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    padding: 50px;
+}
+.top{
+    width: 80vw;
+    height: 20vh;
+    margin: 0 auto;
+    padding: 20px;
+    background: darkgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top .logo{
+    width: 300px;
+}
+.top .navigation{
+    display: flex;
+    gap: 30px;
+}
+.top .navigation a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.top .navigation a:hover{
+    color: brown;
+}
+.main{
+    margin: 0 auto;
+    padding: 20px;
+    width: 80vw;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    background: darkgray;
+}
+.main_box{
+    width: 80vw;
+    display: flex;
+    gap: 20px;
+}
+.main .box_info{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main .box_img{
+    width: 600px;
+}
+.bottom{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 20vh;
+    background: darkgray;
+}
+.bottom .bottom_box{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+}
+.bottom_box .bottom_info{
+    width: 10vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+.bottom_box .bottom_info h2{
+    margin: auto;
+}

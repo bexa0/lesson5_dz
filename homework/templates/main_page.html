@@ -1,0 +1,53 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'style.css'%}">
+    <title>Document</title>
+</head>
+<body>
+    <section class="top">
+        <img class="logo" src="{% static 'img/logo.png' %}">
+        <div class="navigation">
+            <a href="">О сайте</a>
+            <a href="http://127.0.0.1:8000/guide">Список игр</a>
+            <a href="http://127.0.0.1:8000/characters">Персонажи</a>
+            <a href="http://127.0.0.1:8000/episode">Эпизоды</a>
+            <a href="http://127.0.0.1:8000/mainchar">Главный герой</a>
+            <a href="">Лор</a>
+        </div>
+    </section>
+    <section class="main">
+        <div class="main_box">
+            <div class="box_info">
+                <p><b>Джил ( _BOS_ル)</b> - главный герой аниме-сериалов "Башня Друага: Эгида Урука" и "Башня Друага: меч Урука".
+                    Джил - 16-летняя искательница приключений, которая мечтает взобраться на вершину Башни Друага. Он волевой, решительный и,
+                    как видно из первого эпизода, имеет глубокие фантазии о том, чтобы стать почитаемым чемпионом.
+                    Он относится к защитному классу: Страж и изначально использует щит с выдвигающимся шипом в одной руке
+                    и любое подручное оружие, которое он смог найти, в другой (обычно палку). Вместе со своим оригинальным
+                    щитом он позже использует один из двух мечей, которыми пользовался царь Гильгамеш, который царь доверил
+                    Каае передать ему.
+                </p>
+                <br>
+                <p>Имя "Джил", вероятно, является отсылкой к альтернативному, более короткому имени Гильгамеш; Джил также,
+                    кажется, напоминает молодого Гильгамеша, которого можно увидеть во флэшбеке Гильгамеша в третьем эпизоде</p>
+            </div>
+            <img class="box_img" src="{% static 'img/Jill.png' %}">
+        </div>
+    </section>
+    <section class="bottom">
+        <div class="bottom_box">
+            <div class="bottom_info"><h2>Random info</h2></div>
+            <div class="bottom_info"><h2>Random info</h2></div>
+            <div class="bottom_info"><h2>Random info</h2></div>
+            <div class="bottom_info"><h2>Random info</h2></div>
+            <div class="bottom_info"><h2>Random info</h2></div>
+            <div class="bottom_info"><h2>Random info</h2></div>
+        </div>
+    </section>
+</body>
+</html>
